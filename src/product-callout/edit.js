@@ -31,7 +31,6 @@ export default function Edit({ attributes, setAttributes }) {
 	const postTitle = selectedPostData?.title?.rendered || '';
 	const postExcerpt = selectedPostData?.excerpt?.rendered || '';
 	const postImage = selectedPostData?._embedded?.['wp:featuredmedia']?.[0]?.source_url ?? '';
-	console.log('postImage: ', selectedPostData);
 
 	return (
 		<div {...useBlockProps()}>
