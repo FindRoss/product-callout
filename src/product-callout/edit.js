@@ -35,7 +35,7 @@ export default function Edit({ attributes, setAttributes }) {
 	return (
 		<div {...useBlockProps()}>
 			<div className="product-callout">
-				<div>
+				<div class="product-callout__controls">
 					<ComboboxControl
 						label="Search and Select an Item" // Label for the ComboboxControl
 						value={selectedPost} // Value of the selected post
