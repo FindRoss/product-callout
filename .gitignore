@@ -12,7 +12,7 @@ coverage
 build/Release
 
 # Build files
-/build
+build/
 
 # Dependency directories
 node_modules/
