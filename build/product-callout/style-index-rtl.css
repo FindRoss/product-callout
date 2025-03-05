@@ -1,0 +1,45 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/product-callout/style.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.product-callout {
+  background-color: #FAFAFA;
+  border: 1px solid #EAEAEA;
+  padding: 1rem;
+}
+.product-callout .product-callout__content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+  align-items: center;
+}
+.product-callout .product-callout__content h2 {
+  font-size: 24px;
+}
+.product-callout .product-callout__content .excerpt {
+  margin-top: 1rem;
+  font-size: 18px;
+}
+.product-callout .product-callout__content a {
+  margin-top: 1rem;
+  display: block;
+  background: #000;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  font-family: var(--font-family-heading);
+}
+@media (min-width: 768px) {
+  .product-callout .product-callout__content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
