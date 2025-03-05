@@ -18,6 +18,11 @@
   grid-gap: 1rem;
   align-items: center;
 }
+@media screen and (min-width: 768px) {
+  .product-callout .product-callout__content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 .product-callout .product-callout__content h2 {
   font-size: 24px;
 }
@@ -37,11 +42,6 @@
   font-size: 16px;
   letter-spacing: 1.5px;
   font-family: var(--font-family-heading);
-}
-@media (min-width: 768px) {
-  .product-callout .product-callout__content {
-    grid-template-columns: 1fr 1fr;
-  }
 }
 
 /*# sourceMappingURL=style-index.css.map*/

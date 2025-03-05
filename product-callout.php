@@ -17,16 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-/**
- * Registers the block using the metadata loaded from the `block.json` file.
- * Behind the scenes, it registers also all assets so they can be enqueued
- * through the block editor in the corresponding context.
- *
- * @see https://developer.wordpress.org/reference/functions/register_block_type/
- */
-
 require_once plugin_dir_path( __FILE__ ) . 'product-callout-render.php';
-
 
 function create_block_product_callout_block_init() {
 	register_block_type( __DIR__ . '/build/product-callout', array( 'render_callback' => 'render_dynamic_product_callout_block' ) );
