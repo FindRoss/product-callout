@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name:       Product Callout
- * Description:       Example block scaffolded with Create Block tool.
+ * Plugin Name:       AILB Product Callout
+ * Description:       Another Gutenberg block plugin.
  * Version:           0.1.0
  * Requires at least: 6.7
  * Requires PHP:      7.4
