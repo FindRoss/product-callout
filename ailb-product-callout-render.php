@@ -1,5 +1,5 @@
 <?php
-function render_dynamic_product_callout_block($attributes) {
+function render_dynamic_ailb_product_callout_block($attributes) {
   $post_id = isset($attributes['postID']) ? intval($attributes['postID']) : null;
   
   if (!$post_id) return;
