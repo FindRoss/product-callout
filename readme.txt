@@ -9,3 +9,4 @@ License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 Example block scaffolded with Create Block tool.
 
 == Description ==
+This plugin provides a custom Gutenberg block for displaying product callouts with dynamic content.
