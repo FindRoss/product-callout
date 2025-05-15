@@ -18,10 +18,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 // Include the render callback
-require_once plugin_dir_path( __FILE__ ) . 'product-callout-render.php';
+require_once plugin_dir_path( __FILE__ ) . 'ailb-product-callout-render.php';
 
 function create_block_ailb_product_callout_block_init() {
-	register_block_type( __DIR__, array(
+	register_block_type( __DIR__ . '/block.json', array(
 		'render_callback' => 'render_dynamic_ailb_product_callout_block',
 	) );
 }
