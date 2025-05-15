@@ -17,9 +17,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-require_once plugin_dir_path( __FILE__ ) . 'ailb-product-callout-render.php';
+// Include the render callback
+require_once plugin_dir_path( __FILE__ ) . 'product-callout-render.php';
 
 function create_block_ailb_product_callout_block_init() {
-	register_block_type( __DIR__ . '/build/ailb-product-callout', array( 'render_callback' => 'render_dynamic_ailb_product_callout_block' ) );
+	register_block_type( __DIR__, array(
+		'render_callback' => 'render_dynamic_ailb_product_callout_block',
+	) );
 }
 add_action( 'init', 'create_block_ailb_product_callout_block_init' );
