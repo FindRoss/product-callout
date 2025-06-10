@@ -1,7 +1,7 @@
 {
 	"name": "product-callout",
-	"version": "0.1.0",
-	"description": "Example block scaffolded with Create Block tool.",
+	"version": "1.1.0",
+	"description": "A custom plugin built with @wordpress/scripts to display Items on AI Luxury Boutique",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
 	"main": "build/index.js",

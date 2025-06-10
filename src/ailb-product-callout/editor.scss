@@ -4,6 +4,15 @@
  * Replace them with your own styles or remove the file completely.
  */
 .wp-block-create-block-ailb-product-callout {
+
+    .product-callout {
+        border: 1px solid #e2e8f0;
+        
+        &__content {
+            margin-top: 2rem;
+        }
+    }
+
     .image img {
         width: 100%;
         height: auto;

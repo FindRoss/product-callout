@@ -6,7 +6,7 @@
   "title": "AILB Product Callout",
   "category": "widgets",
   "icon": "smiley",
-  "description": "An AILB Custom Block created with Create Block tool.",
+  "description": "A custom WordPress plugin built with @wordpress/scripts to display Items on AI Luxury Boutique.",
   "example": {},
   "supports": {
     "html": false
@@ -18,8 +18,8 @@
     }
   },
   "textdomain": "product-callout",
-  "editorScript": "file:./build/index.js",
-  "editorStyle": "file:./build/index.css",
-  "style": "file:./build/style-index.css",
+  "editorScript": "file:./build/ailb-product-callout/index.js",
+  "editorStyle": "file:./build/ailb-product-callout/index.css",
+  "style": "file:./build/ailb-product-callout/style-index.css",
   "render": "file:./ailb-product-callout-render.php"
 }
